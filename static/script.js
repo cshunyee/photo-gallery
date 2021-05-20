@@ -17,7 +17,6 @@ var container2021 = document.getElementById("2021")
 var bgMusic = document.getElementById("bg-music")
 
 document.addEventListener("DOMContentLoaded", function() {
-  window.location.hash === "#clock"
   video_tag = ["mov", "MOV", "mp4", "MP4"];
   years = ["2020", "2021"];
   years.forEach(year => {
@@ -96,9 +95,7 @@ $(function(){
             break;
         }
     }
-    if(window.location.hash === "#clock") {
-        startClock();
-    }
+    startClock();
 
     function startClock() {
         var angle = 360/60,
