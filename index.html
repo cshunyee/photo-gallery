@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Album</title>
+  <link rel="icon" href="image/rose.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <audio id="bg-music" autoplay loop>
+    <source src="audio/bg-music.mp3" type="audio/mpeg">
+  </audio>
+  <div class="container">
+    <div class="intro-section">
+      <div id="clock">
+        <div id="hour"><img src="image/hourHand.png" /></div>
+        <div id="minute"><img src="image/minuteHand.png" /></div>
+        <div id="second"><img src="image/secondHand.png" /></div>
+      </div>
+      <h1>Here's our memories<br><br>
+        05 December 2020
+        To
+        20 May 2021<br><br>
+      </h1>
+    </div>
+    <div class="cube-section">
+      <h1>Press
+        <span> <img src="image/arrow.png" class="arrow up">
+          <img src="image/arrow.png" class="arrow down">
+          <img src="image/arrow.png" class="arrow left">
+          <img src="image/arrow.png" class="arrow">
+        </span>
+      </h1>
+      <div id="experiment">
+        <div id="cube">
+          <div class="face one bg-img"></div>
+          <div class="face two bg-img"></div>
+          <div class="face three bg-img"></div>
+          <div class="face four bg-img"></div>
+          <div class="face five bg-img"></div>
+          <div class="face six bg-img"></div>
+        </div>
+      </div>
+    </div>
+    <div class="year-container">
+      <h2>The year of 2020</h2>
+      <br />
+      <div id="2020" class="photo-container"></div>
+    </div>
+
+    <div class="year-container">
+      <h2>The year of 2021</h2>
+      <br />
+      <div id="2021" class="photo-container"></div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
