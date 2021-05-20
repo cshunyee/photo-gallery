@@ -188,6 +188,7 @@ h2 {
 
 .container {
   padding: 100px;
+  text-align: center;
 }
 
 .intro-section {
@@ -201,7 +202,7 @@ h2 {
 }
 
 .year-container {
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 /* Photo container */
