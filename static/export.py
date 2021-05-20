@@ -1,11 +1,11 @@
 import os
-arr = os.listdir('./image/')
+arr = os.listdir('./static/image/')
 img_list = []
 
 for dir in arr:
     if dir.isdigit():
         img_list += [dir, '\n']
-        files = os.listdir(f'./image/{dir}/')
+        files = os.listdir(f'./static/image/{dir}/')
         files.remove('.DS_Store')
         files.sort()
         img_list += files

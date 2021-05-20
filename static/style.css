@@ -57,32 +57,32 @@ h1, h2 {
 
 #cube .one {
   -webkit-transform: rotateX(90deg) translateZ(200px);
-  background-image: url(image/cube/1.JPG);
+  background-image: url(../static/image/cube/1.JPG);
 }
 
 #cube .two {
   -webkit-transform: translateZ(200px);
-  background-image: url(image/cube/2.JPG);
+  background-image: url(../static/image/cube/2.JPG);
 }
 
 #cube .three {
   -webkit-transform: rotateY(90deg) translateZ(200px);
-  background-image: url(image/cube/3.JPG);
+  background-image: url(../static/image/cube/3.JPG);
 }
 
 #cube .four {
   -webkit-transform: rotateY(180deg) translateZ(200px);
-  background-image: url(image/cube/4.JPG);
+  background-image: url(../static/image/cube/4.JPG);
 }
 
 #cube .five {
   -webkit-transform: rotateY(-90deg) translateZ(200px);
-  background-image: url(image/cube/5.JPG);
+  background-image: url(../static/image/cube/5.JPG);
 }
 
 #cube .six {
   -webkit-transform: rotateX(-90deg) translateZ(200px) rotate(180deg);
-  background-image: url(image/cube/6.JPG);
+  background-image: url(../static/image/cube/6.JPG);
 }
 
 .bg-img {
@@ -121,7 +121,7 @@ h1, h2 {
     position: relative;
     width: 378px;
     height: 378px;
-    background-image: url('../image/clockFace.png');
+    background-image: url('../static/image/clockFace.png');
     background-size: contain;
     margin: 3em auto;
 }

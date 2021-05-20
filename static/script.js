@@ -32,13 +32,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
         source = document.createElement("source");
         source.setAttribute("type", "video/mp4");
-        source.setAttribute("src", `image/${year}/${item}`);
+        source.setAttribute("src", `static/image/${year}/${item}`);
         video.appendChild(source);
         parentToAppend.appendChild(video);
       } else {
         img = document.createElement("img");
         img.classList.add("zone", "img-responsive");
-        img.setAttribute("src", `image/${year}/${item}`);
+        img.setAttribute("src", `static/image/${year}/${item}`);
         parentToAppend.appendChild(img);
       }
     });
