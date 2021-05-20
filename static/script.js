@@ -4,7 +4,7 @@ var img_2021 = [
   "26.JPG", "27.MOV", "28.MOV", "29.jpeg", "30.JPG", "31.jpeg", "32.jpeg", "33.JPG", "34.JPG", "35.jpeg", "36.jpeg", "37.jpeg",
   "38.JPG", "39.MOV", "40.jpeg", "41.jpeg", "42.JPG", "43.jpeg", "44.jpeg", "45.JPG", "46.JPG", "47.jpeg", "48.jpeg", "49.JPG",
   "50.JPG", "51.mp4", "52.mp4", "53.mp4", "54.mp4", "55.mp4", "56.mp4", "57.mp4", "58.JPG", "59.JPG", "60.MOV", "61.JPG", "62.jpeg",
-  "63.jpeg", "64.mov", "65.mp4"
+  "63.jpeg", "64.mov", "65.mp4", "66.jpg", "67.jpg"
 ]
 
 var img_2020 = [
